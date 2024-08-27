@@ -1,0 +1,11 @@
+{
+    "GRAPHQL_ENDPOINT": "https://example.com/graphql",
+    "GRAPHQL_HEADERS": "Authorization:Bearer token,Content-Type:application/json",
+    "GRAPHQL_COOKIES": "sessionid=abcd1234",
+    "SAFE_PAYLOADS": "1 OR 1=1,{$ne:null},\"; SELECT 1; --",
+    "BACKOFF_MULTIPLIER": 1,
+    "BACKOFF_MIN": 4,
+    "BACKOFF_MAX": 60,
+    "CLIENT_LIBRARY": "python-graphql-client",
+    "SECRET_MANAGER": "your-secret-manager-config"
+}
